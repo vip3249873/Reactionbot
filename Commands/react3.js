@@ -29,7 +29,7 @@ module.exports = {
             .setColor('#e42643')
             .setTitle(' Choose the color.')
             .setDescription('  Choosing a color for your nametag\n\n'
-                + `${whiteheart}  788602615864623104\n`
+                + `${whiteheart}  '788602615864623104'\n`
                 + `${pinkheart}  @pink. \n`
                 + `${redheart}  @red \n`
                 + `${brownheart}  @brown \n`
