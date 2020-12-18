@@ -29,16 +29,16 @@ module.exports = {
             .setColor('#e42643')
             .setTitle(' Choose the color.')
             .setDescription('  Choosing a color for your nametag\n\n'
-                + `${whiteheart}  <@788602615864623104> \n`
-                + `${pinkheart}  <@788602959814066198> \n`
-                + `${redheart}  <@788603230996135946> \n`
-                + `${brownheart}  <@788603284012662824> \n`
-                + `${orangeheart}  <@788603493014831114> \n`
-                + `${yellowheart}  <@788603767166992384> \n`
-                + `${greenheart}  <@788604536645222401> \n`
-                + `${blueheart}  <@788604592039657512> \n`
-                + `${lavenderheart}  <@788604662742777867> \n`
-                + `${blackheart} <@788604723833208853> \n`);
+                + `${whiteheart}  @white\n`
+                + `${pinkheart}  @pink \n`
+                + `${redheart}  @red \n`
+                + `${brownheart}  @brown \n`
+                + `${orangeheart}  @orange \n`
+                + `${yellowheart}  @yellow \n`
+                + `${greenheart}  @green \n`
+                + `${blueheart}  @blue \n`
+                + `${lavenderheart}  @lavender \n`
+                + `${blackheart}  @black \n`);
  
         let messageEmbed = await message.channel.send(embed);
         messageEmbed.react(whiteheart);
